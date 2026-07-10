@@ -34,7 +34,7 @@ nav {
     display: flex;
     margin: auto;
     align-items: center;
-    height: 60px;
+    height: 100px;
 }
 
 nav img {
@@ -52,7 +52,7 @@ nav button {
 .hero {
     font-family: 'Poppins', sans-serif;
 
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     color: white;
     display: flex;
     align-items: center;
@@ -196,4 +196,34 @@ nav button {
 
 .FaQbox > p {
     padding: 3px;
+}
+
+
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+.question{
+    padding: 20px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 10px;
+}
+.footer a{
+    color: white;
+    font-size: 14px;
+
 }
