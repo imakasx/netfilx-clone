@@ -176,7 +176,7 @@ nav button {
 }
 
 .FaQbox{
-    display: flex;
+    /* display: flex; */
     padding: 20px;
     background-color: #2d2d2d;
     max-width: 65vw;
@@ -191,4 +191,9 @@ nav button {
 }
 .FaQbox svg{
     filter: invert(1);
+}
+
+
+.FaQbox > p {
+    padding: 3px;
 }
